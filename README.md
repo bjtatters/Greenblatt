@@ -11,5 +11,7 @@ These filings are convoluted, tricky to find and often misleading. To therefore 
 
 **Before starting...**
 
-It is important to note that the SEC filing website uses cik numbers to identify each company, rather than its ticker. Before using the script then, it is important that you download the latest cik lookup data here: https://www.sec.gov/Archives/edgar/cik-lookup-data.txt
+It is important to note that the SEC filing website uses cik numbers to identify each company, rather than its ticker. The SEC itself provides a .txt file that shows each CIK and the corresponding ticker, however the name of each company is still missing. To save valuable time, in looking for full company names it is advisable to download this .csv file here: https://raw.githubusercontent.com/ngshya/pfsm/master/data/sec_edgar_company_info.csv
+
+After saving this file, input its path file into line 22 of the script
 
