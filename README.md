@@ -13,5 +13,5 @@ These filings are convoluted, tricky to find and often misleading. To therefore 
 
 It is important to note that the SEC filing website uses cik numbers to identify each company, rather than its ticker. The SEC itself provides a .txt file that shows each CIK and the corresponding ticker, however the name of each company is still missing. To save valuable time, in looking for full company names it is advisable to download this .csv file here: https://raw.githubusercontent.com/ngshya/pfsm/master/data/sec_edgar_company_info.csv
 
-After saving this file, input its path file into line 22 of the script
+After saving this file, input its path file into line 22 of the script.
 
