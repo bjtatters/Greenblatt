@@ -1,4 +1,4 @@
-# as we become more serious we need to consider the different words to identify for each form - have a specific word list for each i.e. what type of merger securities etc.
+
 # region - IMPORTS
 import requests
 from bs4 import BeautifulSoup
