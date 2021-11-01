@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup, SoupStrainer
 import urllib.request
 import numpy as np
 # endregion
+
 # region - EXTRACTING DATA
 base_url = 'https://www.sec.gov/cgi-bin/current?q1=0&q2=6&q3='
 page = requests.get(base_url)
