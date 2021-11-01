@@ -15,10 +15,10 @@ In doing so, this word search function allows each user (investor) to see which 
 
 **Before starting...**
 
-It is important to note that the SEC filing website uses cik numbers to identify each company, rather than its ticker. The SEC itself provides a .txt file that shows each CIK and the corresponding ticker, however the name of each company is still missing. To save valuable time, in looking for full company names it is advisable to download this .csv file here: https://raw.githubusercontent.com/ngshya/pfsm/master/data/sec_edgar_company_info.csv
+It is important to note that the SEC filing website uses cik numbers to identify each company, rather than its ticker. The SEC itself provides a .txt file that shows each CIK and the corresponding ticker, however the name of each company is still missing. To save valuable time in looking for full company names, it is advisable to download this .csv file here: https://raw.githubusercontent.com/ngshya/pfsm/master/data/sec_edgar_company_info.csv
 
 After saving this file, input its file path into line 22 of the script.
 
 **Opportunities for further improvement**
 
-As mentioned above, the scraping process includes a word search function. To avoid overloading the output file, and forcing the user to go through the data table avoiding those filings that don't mention any special situations, a simple screen could be included that omits any filing without a sufficient number of 'special situation mentions'.
+As mentioned above, the scraping process includes a word search function. To avoid overloading the output file however, and forcing the user to go through the data table avoiding those filings that don't mention any special situations, a simple screen could be included that omits any filing without a sufficient number of 'special situation mentions'.
