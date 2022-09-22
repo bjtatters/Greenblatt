@@ -19,6 +19,6 @@ It is important to note that the SEC filing website uses CIK numbers to identify
 
 After saving this file, input its file path into line 22 of the script.
 
-**Opportunities for further improvement**
+**Opportunities for further improvement?**
 
 As mentioned above, the scraping process includes a word search function. To avoid overloading the output file however, and forcing the user to go through the data table avoiding those filings that don't mention any special situations, a simple screen could be included that omits any filing without a sufficient number of 'special situation mentions'.
